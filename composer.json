@@ -1,0 +1,17 @@
+{
+    "name": "lybrnth/googledrive-cli",
+    "description": "A command line tool for working with Google Drive",
+    "type": "library",
+    "homepage": "https://github.com/lybrnth/googledrive-cli",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "GoogleDriveCLI\\": "src/",
+            "GoogleDriveAPI\\": "src/"
+        }
+    }
+}
